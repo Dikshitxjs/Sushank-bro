@@ -12,6 +12,17 @@ const apiResponse = {
       agentsId: [4, 5, 6, 7, 8],
     },
     {
+      id: 1,
+      name: "diya",
+      isAdmin: false,
+      hasUserManagementAccess: false,
+      experience: [
+        { title: "trainee", years: 1, office: "techspire" },
+        { title: "associate dev", years: 2, office: "code himalaya" },
+      ],
+      agentsId: [4, 5, 6, 7, 8],
+    },
+    {
       id: 2,
       name: "aaryan",
       isAdmin: true,
